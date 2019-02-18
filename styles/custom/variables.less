@@ -7,7 +7,7 @@
 @beige: #e0d7d3;
 @black: #272727;
 @lightgrey: #f2f2f2;
-@purple: #9680a8;
+@maroon: #8a7d80;
 
 /*//-------------- General --------------//*/
 
@@ -19,7 +19,7 @@
 
     a {
         text-align: center;
-        background-color: @lightgrey;
+        background-color: @beige;
         padding: 15px;
         width: 100%;
         margin-bottom: 20px;
@@ -43,10 +43,6 @@
     padding: 5%;
 }
 
-#featured {
-    background-color: #eee;
-}
-
 .amd-code {
     background: #f9f9f9;
     padding: 20px;
@@ -54,29 +50,20 @@
     font-family: 'Cutive Mono', monospace;
 }
 
-.cookie-notice {
-    background: @lightgrey  !important;
-    color: #000 !important;
-    border: solid 1px #000 !important;
-    display: block !important;
-    left: 20px !important;
-    padding: 40px !important;
-    position: fixed !important;
-    right: 0px !important;
-    width: 350px !important;
-    bottom: 20px !important;
-    top: auto !important;
+.sqs-cookie-banner-v2.LIGHT {
+    background: @beige;
 
-    #sqsp-cookie-banner-accept {
-        margin-left: 0px;
-    }
+    .sqs-cookie-banner-v2-accept {
+        background: @maroon;
+        border: none !important;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 500;
+        transition: .4s ease;
 
-    p {
-        color: black;
-        font-family: 'Effra', sans-serif;
-        font-size: 14px;
-        line-height: 1.5;
-        margin-bottom: 15px !important;
+        &:hover {
+            opacity: .7;
+        }
     }
 }
 
