@@ -19,20 +19,10 @@
       {.equal? recordTypeLabel "text"}
       <a href="{fullUrl}" target="_blank">
         <img src="{assetUrl}">
-        <div class="amd-overlay">
-            <div class="amd-overlay-text">
-              <h2>{title}</h2>
-            </div>
-          </div>
       </a>
       {.or}
       <a href="{clickthroughUrl}" target="_blank">
         <img src="{assetUrl}">
-        <div class="amd-overlay">
-            <div class="amd-overlay-text">
-              <h2>{title}</h2>
-            </div>
-        </div>
       </a>
       {.end}
     </div>
