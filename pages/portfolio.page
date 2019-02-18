@@ -15,7 +15,7 @@
     <div class="content grid" id="amd-isotope-container">
     <div class="grid-sizer"></div>
     {.repeated section items}
-    <div class="single-content grid-item {categories}">
+    <div class="single-content grid-item {.repeated section categories}{@} {.end}">
       {.equal? recordTypeLabel "text"}
       <a href="{fullUrl}" target="_blank">
         <img src="{assetUrl}">
