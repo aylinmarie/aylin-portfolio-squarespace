@@ -168,8 +168,16 @@
       {@|apply footer.block}
 
     </div>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="//npmcdn.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+    <script defer src="https://pro.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-3yBLeJ4waqGSAf4A8pjZ13UF7GuhgbdKnBQvIp/TkWoXtQbtwjlIPNjkDRJ46UCn" crossorigin="anonymous"></script>
     <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="custom/isotope.js" combo="true" />
+    <squarespace:script src="custom/main.js" combo="true" />
 
     {squarespace-footers}
 

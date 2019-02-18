@@ -1,23 +1,20 @@
 <div class="amd-portfolio-page">
+  <squarespace:category collection="portfolio-detail">
   <div class="filters filter-button-group">
-    {.section collection}
-    <squarespace:category collection="{urlId}">
-      {.if categories}
+    {.if categories}
+      <div class="category-wrapper">
       <ul>
         <li class="active" data-filter="*">All</li>
-        <li data-filter=".{collection.categories.0}">Agency{.end}</li>
-        <li data-filter=".{collection.categories.2}">Design/UI</li>
-        <li data-filter=".{collection.categories.3}">Web Development</li>
-        <li data-filter=".{collection.categories.1}">Branding</li>
-      </ul>
-    </squarespace:category>
+        {.repeated section categories}<li data-filter=".{name}" class="category">{name} </li>{.end}
+        </ul>
+      </div>
     {.end}
   </div>
 
   <div class="content grid" id="amd-isotope-container">
     <div class="grid-sizer"></div>
     {.repeated section items}
-    <div class="single-content grid-item {categories.0} {categories.1} {categories.2} {categories.3} {categories.4}">
+    <div class="single-content grid-item {name}">
       {.equal? recordTypeLabel "text"}
       <a href="{fullUrl}" target="_blank">
         <img src="{assetUrl}">
@@ -40,4 +37,5 @@
     </div>
     {.end}
   </div>
+  </squarespace:category>
 </div>
