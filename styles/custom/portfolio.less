@@ -19,3 +19,94 @@
         width: 99%;
     }
 }
+
+.amd-portfolio-page {
+    .amd-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #faeee5;
+
+        .amd-overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 90%;
+        }
+    }
+
+    .amd-overlay:hover {
+        opacity: 1;
+    }
+
+    p.entry-morefrom-link {
+        display: inline-block;
+        color: grey;
+    }
+
+    h4 {
+        color: grey;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    #portfolio p {
+        color: grey;
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    a {
+        color: #7a7b86;
+    }
+
+    .single-content img {
+        max-width: 100%;
+        transition: .4s ease;
+
+        &:hover {
+            opacity: .3;
+        }
+    }
+
+    .filters {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        padding: 20px 0;
+
+        li {
+            display: inline-block;
+            padding: 8px 0 2px 0;
+            margin: 0 20px;
+            font-size: 14px;
+            color: #222;
+            font-weight: 200;
+            text-transform: uppercase;
+            letter-spacing: .2em;
+            transition: .4s ease;
+
+            &:hover {
+                cursor: pointer;
+                color: #bbb;
+            }
+
+            &.active {
+                color: #222;
+                border-bottom: 3px solid #f6dac6;
+                font-weight: 400;
+            }
+        }
+    }
+}
