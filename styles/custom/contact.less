@@ -3,12 +3,21 @@
 #collection-56c51a03e3214072d6f892d8 {
     // newsletter
     .sqs-block.newsletter-block.sqs-block-newsletter {
-        background: @beige;
+        background: @maroon;
+
+        p, h1, h2, h3 {
+            color: white;   
+        }
 
         input {
             background: transparent;
             border: 0px;
-            border-bottom: 2px solid @maroon;
+            border-bottom: 2px solid @beige;
+
+            &::placeholder {
+                color:white;
+                opacity: .5;
+            }
         }
     }
     // map
