@@ -1,0 +1,433 @@
+/*// Custom Code by Aylin Marie*/
+
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
+/*//-------------- Variables --------------//*/
+@pink: #f6dac6;
+@black: #272727;
+@lightgrey: #f2f2f2;
+@purple: #9680a8;
+
+/*//-------------- General --------------//*/
+
+.summary-title {
+    font-size: 12px;
+}
+
+#folderNav {
+
+    a {
+        text-align: center;
+        background-color: @lightgrey;
+        padding: 15px;
+        width: 100%;
+        margin-bottom: 20px;
+        transition: .4s ease;
+        -webkit-transition: .4s ease;
+        -o-transition: .4s ease;
+        -moz-transition: .4s ease;
+        -ms-transition: .4s ease;
+    }
+
+    a:hover,
+    a:active,
+    a:focus,
+    li.active-link a {
+        background-color: #f9f9f9;
+    }
+}
+
+#page {
+    max-width: 1300px;
+    padding: 5%;
+}
+
+#featured {
+    background-color: #eee;
+}
+
+.amd-code {
+    background: #f9f9f9;
+    padding: 20px;
+    border-left: 5px solid rgba(246, 218, 198, .7);
+    font-family: 'Cutive Mono', monospace;
+}
+
+.cookie-notice {
+    background: @lightgrey !important;
+    color: #000 !important;
+    border: solid 1px #000 !important;
+    display: block !important;
+    left: 20px !important;
+    padding: 40px !important;
+    position: fixed !important;
+    right: 0px !important;
+    width: 350px !important;
+    bottom: 20px !important;
+    top: auto !important;
+
+    #sqsp-cookie-banner-accept {
+        margin-left: 0px;
+    }
+
+    p {
+        color: black;
+        font-family: 'Effra', sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 15px !important;
+    }
+}
+
+/*//-------------- Landing --------------//*/
+// Newsletter
+.newsletter-block .newsletter-form-header-title {
+    font-family: calluna;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: lowercase;
+    color: black;
+}
+
+/*//-------------- About --------------//*/
+#block-yui_3_17_2_1_1542061754113_5156 {
+    background: #f9f9f9;
+}
+#block-yui_3_17_2_1_1542061754113_5090 {
+    padding: 0;
+}
+.about-list li {
+    list-style-type: none;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-right: 15px;
+    display: inline;
+    padding: 8px 30px;
+    line-height: 3;
+  }
+  
+  .about-list ul {
+    padding: 0px;
+    text-align: center;
+  }
+
+/*//-------------- Services --------------//*/
+// Services Summary 
+
+#block-yui_3_17_2_1_1541515527007_23125,
+#block-yui_3_17_2_5_1505930666982_21310 {
+    padding: 25px;
+    background: #f9f9f9;
+}
+
+#block-yui_3_17_2_5_1512863241256_71558,
+#block-yui_3_17_2_7_1512862044162_20272 {
+    padding: 7px !important;
+}
+
+.amd-services {
+
+    ul {
+        padding: 0;
+
+        li {
+            list-style-type: none;
+            background-color: @lightgrey;
+            margin: 15px 0 !important;
+            padding: 15px 0;
+            font-family: 'effra', 'san-serif';
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-size: 12px;
+            display: block;
+            width: 100%;
+            text-align: center;
+            transition: .4s ease;
+
+            &:hover {
+                background-color: #f9f9f9;
+                font-weight: bold;
+            }
+        }
+    }
+
+}
+
+.amd-investment {
+    border: 7px solid @lightgrey;
+    text-align: center;
+    padding: 25px;
+}
+
+// Services Detail 
+#collection-56e8b1e1cf80a1d454859aa4,
+#collection-5a1cb92fe4966b13424b5d0c,
+#collection-5a1cbd40c83025aa86b39651,
+#collection-5a1cbad053450a9c549db0ec {
+    li {
+        p::before {
+            content: "\f304";
+            font-family: 'Font Awesome 5 Pro';
+            color: #f6dac6;
+        }
+    }
+}
+
+
+
+/*//-------------- Portfolio --------------//*/
+#collection-59d944df8a02c7abc311e81d {
+    .grid {
+        width: 100%;
+        margin: auto 0;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .grid-sizer,
+    .grid-item {
+        margin: 0 7px 7px 7px;
+        width: 31.5%;
+
+        @media only screen and (max-width: 837px) {
+            width: 47%;
+        }
+
+        @media only screen and (max-width: 500px) {
+            width: 99%;
+        }
+    }
+}
+
+.amd-portfolio-page {
+    .amd-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #faeee5;
+
+        .amd-overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 90%;
+        }
+      }
+      
+      .amd-overlay:hover {
+        opacity: 1;
+      }
+
+    p.entry-morefrom-link {
+        display: inline-block;
+        color: grey;
+    }
+
+    h4 {
+        color: grey;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    #portfolio p {
+        color: grey;
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    a {
+        color: #7a7b86;
+    }
+
+    .single-content img {
+        max-width: 100%;
+        transition: .4s ease;
+
+        &:hover {
+            opacity: .3;
+        }
+    }
+
+    .filters {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        padding: 20px 0;
+
+        li {
+            display: inline-block;
+            padding: 8px 0 2px 0;
+            margin: 0 20px;
+            font-size: 14px;
+            color: #222;
+            font-weight: 200;
+            text-transform: uppercase;
+            letter-spacing: .2em;
+            transition: .4s ease;
+
+            &:hover {
+                cursor: pointer;
+                color: #bbb;
+            }
+
+            &.active {
+                color: #222;
+                border-bottom: 3px solid #f6dac6;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+/*//-------------- Contact --------------//*/
+
+#collection-56c51a03e3214072d6f892d8 {
+    #block-yui_3_17_2_4_1486763931424_6733 {
+        background: @lightgrey;
+        padding: 50px;
+    }
+
+    .sqs-block.map-block.sqs-block-map {
+        padding: 0px;
+    }
+
+    .lightbox-handle,
+    .newsletter-form-button {
+        font-family: effra;
+        font-style: normal;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        border: 2px solid transparent !important;
+        transition: .4s ease;
+        -webkit-transition: .4s ease;
+        -o-transition: .4s ease;
+        -moz-transition: .4s ease;
+        -ms-transition: .4s ease;
+    }
+
+    .lightbox-handle:hover,
+    .newsletter-form-button:hover {
+        background-color: white;
+        color: #1f2526;
+        border-color: #f6dac6 !important;
+    }
+
+    .newsletter-block input {
+        background: transparent;
+        border: 0px;
+        border-bottom: 1px solid;
+    }
+}
+
+/*//-------------- Footer --------------//*/
+
+footer p {
+    text-transform: lowercase;
+    letter-spacing: .2em;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+#footer .html-block a {
+    text-transform: uppercase;
+    color: #555555 !important;
+    border: none !important;
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
+    -o-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -ms-transition: .4s ease;
+}
+
+#footer .html-block a:hover {
+    color: #f5ba91 !important;
+}
+
+#footer {
+    .tweet-text {
+        margin-left: 5px;
+        display: inline;
+
+        a {
+            color: #414343 !important;
+            text-decoration: underline !important;
+        }
+
+        i {
+            margin-left: -30px;
+            padding-right: 5px;
+        }
+    }
+}
+
+#footer .timesince {
+    color: #414343 !important;
+    font-style: italic;
+    display: block;
+}
+
+/*//-------------- Client Portal --------------//*/
+
+
+/*//-------------- Studio --------------//*/
+
+
+/*Home Page*/
+
+#studio-home {
+    background: @lightgrey;
+}
+
+/*Workshops*/
+
+#collection-5a77a8ba9140b782982f6fae {
+    a.summary-thumbnail-container.sqs-gallery-image-container {
+        margin: 0px !important;
+    }
+
+    .summary-item {
+        padding: 20px;
+        border: 2px solid #f6dac6;
+
+        .summary-title {
+            font-size: 25px !important;
+            line-height: 30px;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+}
+
+/*//-------------- Sumo Me --------------//*/
+.sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-left-page .sumome-share-client-animated {
+    background: @black  !important;
+    margin: 1px 0 !important;
+    transition: .6s ease;
+
+    &:last-child {
+        display: none;
+    }
+
+    &:hover {
+        opacity: .8;
+    }
+}
+
+.sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-counts .sumome-share-client-count.sumome-share-client-share-share span {
+    color: white;
+}
