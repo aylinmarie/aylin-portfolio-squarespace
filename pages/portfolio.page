@@ -18,11 +18,11 @@
     <div class="single-content grid-item {.repeated section categories}{@} {.end}">
       {.equal? recordTypeLabel "text"}
       <a href="{fullUrl}" target="_blank">
-        <img src="{assetUrl}">
+        <img {@|image-meta}>
       </a>
       {.or}
       <a href="{clickthroughUrl}" target="_blank">
-        <img src="{assetUrl}">
+        <img {@|image-meta}>
       </a>
       {.end}
     </div>
