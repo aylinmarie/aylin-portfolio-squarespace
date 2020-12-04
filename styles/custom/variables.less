@@ -11,6 +11,23 @@
 @lightgrey: #f2f2f2;
 @maroon: #8a7d80;
 
+@clay: #995F49;
+@stone: #F5EFED;
+@sand: #CCAFA4;
+@graphite: #242723;
+
+
+
+
+
+
+
+
+.field-error {
+    background: hsl(346, 12%, 42%) url(//static.squarespace.com/universal/images-v6/standard/icon_close_7_light.png) no-repeat 9px 50% !important;
+}
+
+
 /*//-------------- General --------------//*/
 .field-error {
     background: @maroon url(//static.squarespace.com/universal/images-v6/standard/icon_close_7_light.png) no-repeat 9px 50% !important;
@@ -56,11 +73,11 @@
 }
 
 .sqs-cookie-banner-v2.LIGHT {
-    background: @beige;
-    border: 1px solid white;
+    background: @stone;
+    border: 1px solid @clay;
 
     .sqs-cookie-banner-v2-accept {
-        background: @maroon;
+        background: @clay;
         border: none !important;
         text-transform: uppercase;
         color: white;
@@ -83,34 +100,6 @@
         text-transform: uppercase;
     }
 }
-
-/*//-------------- About --------------//*/
-#collection-5a93662a652dea92f9f39791 {
-    #connect-about {
-        background: @beige;
-    }
-
-    #block-yui_3_17_2_1_1542061754113_5090 {
-        padding: 0;
-    }
-
-    .about-list li {
-        list-style-type: none;
-        text-align: center;
-        color: white;
-        background-color: @blue;
-        margin: 0 15px 15px 0;
-        margin-right: 15px;
-        display: inline-flex;
-        padding: 8px 30px;
-    }
-
-    .about-list ul {
-        padding: 0px;
-        text-align: center;
-    }
-}
-
 
 /*//-------------- Services --------------//*/
 // Services Summary 
@@ -162,68 +151,11 @@
 
 /*//-------------- Footer --------------//*/
 
-footer p {
-    text-transform: lowercase;
-    letter-spacing: .2em;
-    font-size: 11px;
-    font-weight: 400;
-}
+.Footer-middle {
+    display: none !important;
+  }
+  
+  #footerBlocksTop {
+    padding: 0;
+  }
 
-#footer .html-block a {
-    text-transform: uppercase;
-    color: #555555 !important;
-    border: none !important;
-    transition: .4s ease;
-    -webkit-transition: .4s ease;
-    -o-transition: .4s ease;
-    -moz-transition: .4s ease;
-    -ms-transition: .4s ease;
-}
-
-#footer .html-block a:hover {
-    color: #f5ba91 !important;
-}
-
-#footer {
-    .tweet-text {
-        margin-left: 5px;
-        display: inline;
-
-        a {
-            color: #414343 !important;
-            text-decoration: underline !important;
-        }
-
-        i {
-            margin-left: -30px;
-            padding-right: 5px;
-        }
-    }
-}
-
-#footer .timesince {
-    color: #414343 !important;
-    font-style: italic;
-    display: block;
-}
-
-
-
-/*//-------------- Sumo Me --------------//*/
-.sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-left-page .sumome-share-client-animated {
-    background: @black  !important;
-    margin: 1px 0 !important;
-    transition: .6s ease;
-
-    &:last-child {
-        display: none;
-    }
-
-    &:hover {
-        opacity: .8;
-    }
-}
-
-.sumome-share-client-wrapper div.sumome-share-client.sumome-share-client-counts .sumome-share-client-count.sumome-share-client-share-share span {
-    color: white;
-}
