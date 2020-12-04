@@ -3,14 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 
 /*//-------------- Variables --------------//*/
-@pink: #fcdfce;
-@beige: #e0d7d3;
-@blue: #626670;
-@beigefaded: #f5f3f2;
-@black: #3d3d3d;
-@lightgrey: #f2f2f2;
-@maroon: #8a7d80;
-
 @clay: #995F49;
 @stone: #F5EFED;
 @sand: #CCAFA4;
@@ -18,53 +10,22 @@
 
 
 
-
-
-
-
-
-.field-error {
-    background: hsl(346, 12%, 42%) url(//static.squarespace.com/universal/images-v6/standard/icon_close_7_light.png) no-repeat 9px 50% !important;
-}
-
-
 /*//-------------- General --------------//*/
 .field-error {
-    background: @maroon url(//static.squarespace.com/universal/images-v6/standard/icon_close_7_light.png) no-repeat 9px 50% !important;
+    background: @sand url(//static.squarespace.com/universal/images-v6/standard/icon_close_7_light.png) no-repeat 9px 50% !important;
 }
 
+// Form Fields
+.sqs-search-ui-button-wrapper.color-dark .search-input {
+    border-color: @graphite;
+}
+
+// Title Cards
 .summary-title {
     font-size: 12px;
 }
 
-#folderNav {
-
-    a {
-        text-align: center;
-        background-color: @beige;
-        padding: 15px;
-        width: 100%;
-        margin-bottom: 20px;
-        transition: .4s ease;
-        -webkit-transition: .4s ease;
-        -o-transition: .4s ease;
-        -moz-transition: .4s ease;
-        -ms-transition: .4s ease;
-    }
-
-    a:hover,
-    a:active,
-    a:focus,
-    li.active-link a {
-        background-color: #f9f9f9;
-    }
-}
-
-#page {
-    max-width: 1300px;
-    padding: 5%;
-}
-
+//  Code Block
 .amd-code {
     background: #f9f9f9;
     padding: 20px;
@@ -72,6 +33,7 @@
     font-family: 'Cutive Mono', monospace;
 }
 
+// Cooking Banner
 .sqs-cookie-banner-v2.LIGHT {
     background: @stone;
     border: 1px solid @clay;
@@ -101,53 +63,6 @@
     }
 }
 
-/*//-------------- Services --------------//*/
-// Services Summary 
-
-#block-yui_3_17_2_1_1541515527007_23125,
-#block-yui_3_17_2_5_1505930666982_21310 {
-    padding: 25px;
-    background: #f9f9f9;
-}
-
-#block-yui_3_17_2_5_1512863241256_71558,
-#block-yui_3_17_2_7_1512862044162_20272 {
-    padding: 7px !important;
-}
-
-.amd-services {
-
-    ul {
-        padding: 0;
-
-        li {
-            list-style-type: none;
-            background-color: @lightgrey;
-            margin: 15px 0 !important;
-            padding: 15px 0;
-            font-family: 'effra', 'san-serif';
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            font-size: 12px;
-            display: block;
-            width: 100%;
-            text-align: center;
-            transition: .4s ease;
-
-            &:hover {
-                background-color: #f9f9f9;
-                font-weight: bold;
-            }
-        }
-    }
-
-}
-
-.amd-investment {
-    border: 7px solid @lightgrey;
-    text-align: center;
-    padding: 25px;
-}
 
 /*//-------------- Footer --------------//*/
 
