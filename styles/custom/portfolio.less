@@ -1,86 +1,12 @@
 /*//-------------- Portfolio --------------//*/
-.grid {
-    width: 100%;
-    margin: auto 0;
-    padding: 0px;
-    text-align: center;
-}
 
-.grid-sizer,
-.grid-item {
-    margin: 0 7px 7px 7px;
-    width: 31.5%;
-
-    @media only screen and (max-width: 837px) {
-        width: 47%;
+.portfolio-page {
+    .portfolio-wrapper {
+        display: flex;
+        column-gap: 16px;
     }
 
-    @media only screen and (max-width: 500px) {
-        width: 99%;
-    }
-}
-
-.amd-portfolio-page {
-    p.entry-morefrom-link {
-        display: inline-block;
-        color: grey;
-    }
-
-    h4 {
-        color: grey;
-        font-size: 24px;
-        font-weight: 400;
-    }
-
-    #portfolio p {
-        color: grey;
-        font-size: 12px;
-        font-weight: 200;
-    }
-
-    a {
-        color: #7a7b86;
-    }
-
-    .single-content img {
-        max-width: 100%;
-        transition: .4s ease;
-
-        &:hover {
-            opacity: .3;
-        }
-    }
-
-    .filters {
+    .portfolio-item img {
         width: 100%;
-        text-align: center;
-    }
-
-    ul {
-        list-style: none;
-        padding: 20px 0;
-
-        li {
-            display: inline-block;
-            padding: 8px 0 2px 0;
-            margin: 0 20px;
-            font-size: 14px;
-            color: #222;
-            font-weight: 200;
-            text-transform: uppercase;
-            letter-spacing: .2em;
-            transition: .4s ease;
-
-            &:hover {
-                cursor: pointer;
-                color: @stone;
-            }
-
-            &.active {
-                color: black;
-                border-bottom: 3px solid @sand;
-                font-weight: 400;
-            }
-        }
     }
 }

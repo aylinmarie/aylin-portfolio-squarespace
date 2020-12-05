@@ -1,0 +1,32 @@
+<div class="amd-portfolio-page">
+  <squarespace:category collection="portfolio-detail">
+  <div class="filters filter-button-group">
+    {.if categories}
+      <div class="category-wrapper">
+      <ul>
+        <li class="active" data-filter="*">All</li>
+        {.repeated section categories}<li data-filter=".{name}" class="category">{name} </li>{.end}
+        </ul>
+      </div>
+    {.end}
+  </div>
+  </squarespace:category>
+  <squarespace:query collection="portfolio-detail">
+    <div class="content grid" id="amd-isotope-container">
+    <div class="grid-sizer"></div>
+    {.repeated section items}
+    <div class="single-content grid-item {.repeated section categories}{@} {.end}">
+      {.equal? recordTypeLabel "text"}
+      <a href="{fullUrl}" target="_blank">
+        <img {@|image-meta}>
+      </a>
+      {.or}
+      <a href="{clickthroughUrl}" target="_blank">
+        <img {@|image-meta}>
+      </a>
+      {.end}
+    </div>
+    {.end}
+  </div>
+  </squarespace:query>
+</div>
