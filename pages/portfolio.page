@@ -21,7 +21,11 @@
 
     <div class="row">
       <div class="portfolio-item">
-        <img src="../assets/img/mailchimp.png" alt="Mailchimp"/>
+        <img src="../assets/img/mailchimp.png" alt="Mailchimp Design System"/>
+        <div class="visually-hidden">
+          <p>As a frontend engineer, I spend my day building React components, creating design tokens, accessibility testing and writing documentation for our pattern library. I work with product teams by onboarding them into our new design system and support them during implementation.</p>
+        </div>
+        
       </div>
       <div class="portfolio-item">
         <img src="../assets/img/cdcdm.png" alt="CDC - Dating Matters Training at Banyan"/>
