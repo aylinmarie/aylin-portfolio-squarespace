@@ -1,12 +1,25 @@
 /*//-------------- Portfolio --------------//*/
 
 .portfolio-page {
-    .portfolio-wrapper {
+    .row {
         display: flex;
-        column-gap: 16px;
+        column-gap: 36px;
+        margin-bottom: 36px;
+
+        @media screen and (max-width: 767px) {
+            flex-wrap: wrap;
+            margin-bottom: 0px;
+            column-gap: 16px;
+        }
     }
 
-    .portfolio-item img {
-        width: 100%;
+    .portfolio-item {
+        img {
+            width: 100%;
+        }
+
+        @media screen and (max-width: 767px) {
+            margin-bottom: 16px;
+        }
     }
 }

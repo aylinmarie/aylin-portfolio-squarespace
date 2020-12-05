@@ -1,13 +1,38 @@
 <div class="portfolio-page">
   <div class="portfolio-wrapper">
-    <div class="portfolio-item camille">
-      <img src="../assets/img/camille.png" alt=""/>
-      <p class="visually-hidden">Camille Simone</p>
+
+    <div class="row">
+      <div class="portfolio-item">
+        <img src="../assets/img/camille.png" alt="Camille Simone Consulting"/>
+      </div>
+      <div class="portfolio-item">
+        <img src="../assets/img/aap.png" alt="American Academy of Pediatrics at Banyan"/>
+      </div>
     </div>
 
-    <div class="portfolio-item agency">
-      <img src="../assets/img/aap.png" alt=""/>
-      <p class="visually-hidden">American Academy of Pediatrics at Banyan</p>
+    <div class="row">
+      <div class="portfolio-item">
+        <img src="../assets/img/cjs.png" alt="Cross Jurisdictional Sharing (CJS) at Banyan"/>
+      </div>
+      <div class="portfolio-item">
+        <img src="../assets/img/lupoli.png" alt="Lupoli Construction"/>
+      </div>
     </div>
+
+    <div class="row">
+      <div class="portfolio-item">
+        <img src="../assets/img/mailchimp.png" alt="Mailchimp"/>
+      </div>
+      <div class="portfolio-item">
+        <img src="../assets/img/cdcdm.png" alt="CDC - Dating Matters Training at Banyan"/>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="portfolio-item" style="flex-basis: 33%">
+        <img src="../assets/img/cdcvv.png" alt="CDC - Veto Violence at Banyan"/>
+      </div>
+    </div>
+
   </div>
 </div>
