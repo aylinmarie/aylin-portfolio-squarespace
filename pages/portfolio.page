@@ -13,7 +13,7 @@
         <div class="col col-lg-8 col-md-12">
           <div class="custom item">
             <div class="row justify-content-between">
-              <div class="col col-lg-4 col-md-12 text-center">
+              <div class="col col-lg-4 col-md-12 ">
                 <h2>Camille Simone Consulting</h2>
                 <div class="line"></div>
               </div>
@@ -30,13 +30,13 @@
         <div class="col col-lg-8 col-md-12">
           <div class="mailchimp item">
             <div class="row align-items-center justify-content-between">
-              <div class="col col-lg-6 text-center">
+              <div class="col col-lg-6 ">
                 <h2>Mailchimp Design System</h2>
                 <div class="line"></div>
                 <em>Senior Engineer</em>
               </div>
               <div class="col col-lg-6 col-md-12">
-                <p class="text-center">I spend my day building React components, creating design tokens,
+                <p class="">I spend my day building React components, creating design tokens,
                   testing for accessibility
                   and writing documentation for our pattern library. I work with product teams by onboarding
                   them
@@ -64,12 +64,12 @@
         <div class="col col-lg-8 col-md-12">
           <div class="custom item">
             <div class="row">
-              <div class="col col-lg-4 col-md-12 text-center">
+              <div class="col col-lg-4 col-md-12 ">
                 <h2>Lupoli</h2>
                 <div class="line"></div>
               </div>
               <div class="col col-lg-8 col-md-12">
-                <img class="text-center" src="../assets/img/lupoli.svg" alt="Homepage of www.lupoliconstruction.com" />
+                <img class="" src="../assets/img/lupoli.svg" alt="Homepage of www.lupoliconstruction.com" />
               </div>
             </div>
           </div>
