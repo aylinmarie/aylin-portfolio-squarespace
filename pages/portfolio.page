@@ -1,42 +1,91 @@
 <div class="portfolio-page">
   <div class="portfolio-wrapper">
 
-    <div class="row">
-      <div class="portfolio-item">
-        <img src="../assets/img/camille.png" alt="Camille Simone Consulting"/>
-      </div>
-      <div class="portfolio-item">
-        <img src="../assets/img/aap.png" alt="American Academy of Pediatrics at Banyan"/>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="portfolio-item">
-        <img src="../assets/img/cjs.png" alt="Cross Jurisdictional Sharing (CJS) at Banyan"/>
-      </div>
-      <div class="portfolio-item">
-        <img src="../assets/img/lupoli.png" alt="Lupoli Construction"/>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="portfolio-item">
-        <img src="../assets/img/mailchimp.png" alt="Mailchimp Design System"/>
-        <div class="visually-hidden">
-          <p>As a frontend engineer, I spend my day building React components, creating design tokens, accessibility testing and writing documentation for our pattern library. I work with product teams by onboarding them into our new design system and support them during implementation.</p>
+    <div class="container">
+      <div class="row">
+        <div class="col col-lg-4 col-md-12">
+          <div class="agency item">
+            <h2>American Academy of Pediatrics</h2>
+            <p>Agency Work</p>
+          </div>
         </div>
-        
-      </div>
-      <div class="portfolio-item">
-        <img src="../assets/img/cdcdm.png" alt="CDC - Dating Matters Training at Banyan"/>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="portfolio-item cdcvv">
-        <img src="../assets/img/cdcvv.png" alt="CDC - Veto Violence at Banyan"/>
+        <div class="col col-lg-8 col-md-12">
+          <div class="custom item">
+            <div class="row justify-content-between">
+              <div class="col col-lg-4 col-md-12 text-center">
+                <h2>Camille Simone Consulting</h2>
+                <div class="line"></div>
+              </div>
+              <div class="col col-lg-8 col-md-12">
+                <img src="../assets/img/camille.svg" alt="Logo of Camille Simone Consulting brand."
+                  style="max-width: 250px;" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
 
+      <div class="row">
+        <div class="col col-lg-8 col-md-12">
+          <div class="mailchimp item">
+            <div class="row align-items-center justify-content-between">
+              <div class="col col-lg-6 text-center">
+                <h2>Mailchimp Design System</h2>
+                <div class="line"></div>
+                <em>Senior Engineer</em>
+              </div>
+              <div class="col col-lg-6 col-md-12">
+                <p class="text-center">I spend my day building React components, creating design tokens,
+                  testing for accessibility
+                  and writing documentation for our pattern library. I work with product teams by onboarding
+                  them
+                  into our new design system and support them during implementation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-4 col-md-12">
+          <div class="agency item">
+            <h2>CDC - Veto Violence</h2>
+            <p>Agency Work</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-lg-4 col-md-12">
+          <div class="agency item">
+            <h2>Cross Jurisdictional Sharing (CJS)</h2>
+            <p>Agency Work</p>
+          </div>
+        </div>
+
+        <div class="col col-lg-8 col-md-12">
+          <div class="custom item">
+            <div class="row">
+              <div class="col col-lg-4 col-md-12 text-center">
+                <h2>Lupoli</h2>
+                <div class="line"></div>
+              </div>
+              <div class="col col-lg-8 col-md-12">
+                <img class="text-center" src="../assets/img/lupoli.svg" alt="Homepage of www.lupoliconstruction.com" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-md-12">
+            <div class="agency item">
+              <h2>CDC - Dating Matters Training</h2>
+              <p>Agency Work</p>
+            </div>
+          </div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+      </div>
+
+    </div>
   </div>
-</div>
